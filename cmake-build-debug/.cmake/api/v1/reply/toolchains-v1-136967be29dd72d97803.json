@@ -1,0 +1,118 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/.system/usr/lib/gcc/x86_64-linux-gnu/12/include",
+						"/.system/usr/local/include",
+						"/.system/usr/include/x86_64-linux-gnu",
+						"/.system/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/.system/usr/lib/gcc/x86_64-linux-gnu/12",
+						"/.system/usr/lib/gcc/x86_64-linux-gnu",
+						"/.system/usr/lib/gcc",
+						"/.system/usr/lib/x86_64-linux-gnu",
+						"/.system/usr/lib",
+						"/lib/x86_64-linux-gnu",
+						"/lib",
+						"/usr/lib/x86_64-linux-gnu",
+						"/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"gcc_s",
+						"c",
+						"gcc",
+						"gcc_s"
+					]
+				},
+				"path" : "/usr/bin/cc",
+				"version" : "12.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/.system/usr/include/c++/12",
+						"/.system/usr/include/x86_64-linux-gnu/c++/12",
+						"/.system/usr/include/c++/12/backward",
+						"/.system/usr/lib/gcc/x86_64-linux-gnu/12/include",
+						"/.system/usr/local/include",
+						"/.system/usr/include/x86_64-linux-gnu",
+						"/.system/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/.system/usr/lib/gcc/x86_64-linux-gnu/12",
+						"/.system/usr/lib/gcc/x86_64-linux-gnu",
+						"/.system/usr/lib/gcc",
+						"/.system/usr/lib/x86_64-linux-gnu",
+						"/.system/usr/lib",
+						"/lib/x86_64-linux-gnu",
+						"/lib",
+						"/usr/lib/x86_64-linux-gnu",
+						"/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "/usr/bin/c++",
+				"version" : "12.2.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
