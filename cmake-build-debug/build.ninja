@@ -67,8 +67,8 @@ build CMakeFiles/untitled1.dir/Lex/source/Token.cpp.o: CXX_COMPILER__untitled1_u
   OBJECT_DIR = CMakeFiles/untitled1.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled1.dir/Lex/source
 
-build CMakeFiles/untitled1.dir/Lex/source/Lex.cpp.o: CXX_COMPILER__untitled1_unscanned_Debug /home/vivekdagar/Documents/Code/C++/Lexer-for-C/Lex/source/Lex.cpp || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles/untitled1.dir/Lex/source/Lex.cpp.o.d
+build CMakeFiles/untitled1.dir/Lex/source/Lexer.cpp.o: CXX_COMPILER__untitled1_unscanned_Debug /home/vivekdagar/Documents/Code/C++/Lexer-for-C/Lex/source/Lexer.cpp || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles/untitled1.dir/Lex/source/Lexer.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/untitled1.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled1.dir/Lex/source
@@ -81,7 +81,7 @@ build CMakeFiles/untitled1.dir/Lex/source/Lex.cpp.o: CXX_COMPILER__untitled1_uns
 #############################################
 # Link the executable untitled1
 
-build untitled1: CXX_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/main.cpp.o CMakeFiles/untitled1.dir/Lex/source/TokenList.cpp.o CMakeFiles/untitled1.dir/Lex/source/Token.cpp.o CMakeFiles/untitled1.dir/Lex/source/Lex.cpp.o
+build untitled1: CXX_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/main.cpp.o CMakeFiles/untitled1.dir/Lex/source/TokenList.cpp.o CMakeFiles/untitled1.dir/Lex/source/Token.cpp.o CMakeFiles/untitled1.dir/Lex/source/Lexer.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/untitled1.dir
   POST_BUILD = :

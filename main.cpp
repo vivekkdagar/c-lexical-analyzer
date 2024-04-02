@@ -1,15 +1,23 @@
 #include <iostream>
-#include <sstream>
 #include <algorithm>
-#include "Lex/include/Lex.h"
-#include "Lex/include/TokenList.h"
+#include "Lex/include/Lexer.h"
 
 using namespace std;
 
 int main() {
-    Lex h("<a 2.0");
-    h.advance();
-    h.advance();
+    string input = R"(
+    #include "stdio.h"
+    int main() {
+        if(age > 12) {
+            return 2;
+        }   else{
+        return 0;
+        }
+    }
+    )";
+
+    cout << "Code is:" << input << endl;
+    Lexer h(input);
+    h.tokenize();
     cout << h;
-    return 0;
 }

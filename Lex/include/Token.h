@@ -5,24 +5,32 @@
 #ifndef UNTITLED1_TOKEN_H
 #define UNTITLED1_TOKEN_H
 
+#ifndef TOKEN_H
+#define TOKEN_H
+
 #include "TokenList.h"
-#include <vector>
 #include <string>
 #include <iostream>
-using std::vector, std::string, std::cerr;
 
 class Token {
+private:
+    // Data members
     ctokens::TokType type;
-    string lexeme;
+    std::string lexeme;
+
 public:
-    Token(ctokens::TokType type, const string &lexeme);
+    // Constructor
+    Token(ctokens::TokType type, std::string lexeme);
 
-    ctokens::TokType getType() const;
+    // Accessors
+    [[nodiscard]] ctokens::TokType getType() const;
+    [[nodiscard]] const std::string &getLexeme() const;
 
-    const string &getLexeme() const;
-
+    // Overloaded output operator
     friend std::ostream &operator<<(std::ostream &os, const Token &token);
 };
+
+#endif // TOKEN_H
 
 
 #endif //UNTITLED1_TOKEN_H

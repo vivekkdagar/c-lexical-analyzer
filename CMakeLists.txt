@@ -8,5 +8,5 @@ add_executable(untitled1 main.cpp
         Lex/include/TokenList.h
         Lex/source/Token.cpp
         Lex/include/Token.h
-        Lex/source/Lex.cpp
-        Lex/include/Lex.h)
+        Lex/source/Lexer.cpp
+        Lex/include/Lexer.h)

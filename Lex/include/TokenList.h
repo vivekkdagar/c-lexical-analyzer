@@ -4,31 +4,21 @@
 
 #ifndef UNTITLED1_TOKENLIST_H
 #define UNTITLED1_TOKENLIST_H
-
-#include <vector>
 #include <string>
+#include <unordered_set>
+#include <unordered_map>
+
 namespace ctokens {
 
-    extern std::vector<std::string> keywords;  // Done
+    // External sets of keywords and preprocessor directives
+    extern std::unordered_set<std::string> keywords;
+    extern std::unordered_set<std::string> preprocessorDirectives;
 
-    // Operators
-    extern std::vector<std::string> arithOperators;     // Done
-    extern std::vector<std::string> relaOperators; // Done
-    extern std::vector<std::string> assignmentOperators; // Done
-    extern std::vector<std::string> logicalOperators; // Done
-    extern std::vector<std::string> bitwiseOperators; // Done
-    extern std::vector<std::string> brackets; // Done
-    extern std::vector<std::string> otherOperators;
-    extern std::vector<char> whitespaces;
-    extern std::vector<std::string> specialSymbols;
-
-    extern std::vector<std::string> preprocessorDirectives;  // Done
-
+    // Enumeration for token types
     enum class TokType {
         KEYWORD,
         IDENTIFIER,
         END_OF_FILE,
-        WHITESPACE,
         PREPROCESSOR_DIRECTIVE,
         ARITHMETIC_OPERATOR,
         RELATIONAL_OPERATOR,
@@ -36,6 +26,8 @@ namespace ctokens {
         LOGICAL_OPERATOR,
         BITWISE_OPERATOR,
         ASSIGNMENT_OPERATOR,
+        CHAR_CONST,
+        STRING,
         OTHER_OPERATOR,
         FLOAT_CONSTANT,
         INT_CONSTANT,
@@ -43,11 +35,12 @@ namespace ctokens {
         BRACKET
     };
 
+    // Helper class for printing token types
     class TokTypeHelper {
     public:
         static std::string print(TokType obj);
     };
 
-} // ctokens
+} // namespace ctokens
 
 #endif //UNTITLED1_TOKENLIST_H
