@@ -6,12 +6,10 @@ using namespace std;
 
 int main() {
     string input = R"(
+    // Test
     #include "stdio.h"
     int main() {
-        if(age > 12) {
-            return 2;
-        }   else{
-        return 0;
+        reurn 0;
     }
     )";
 
