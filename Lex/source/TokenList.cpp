@@ -18,7 +18,7 @@ namespace ctokens {
                                                 "static", "struct", "switch",
                                                 "typedef", "union", "unsigned",
                                                 "void", "volatile", "while",
-                                                "sizeof"};
+                                                "sizeof", "true", "false"};
 
     std::unordered_set<std::string> preprocessorDirectives = {"#define", "#include", "#ifdef",
                                                               "#ifndef", "#endif", "#if",

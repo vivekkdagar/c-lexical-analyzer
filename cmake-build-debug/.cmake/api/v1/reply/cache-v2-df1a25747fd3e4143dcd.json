@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/vivekdagar/Documents/Code/C++/Lexer-for-C/cmake-build-debug"
+			"value" : "/home/vivekdagar/Documents/Code/Projects/c-lexical-analyzer/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/vivekdagar/Documents/Code/C++/Lexer-for-C/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/vivekdagar/Documents/Code/Projects/c-lexical-analyzer/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/vivekdagar/Documents/Code/C++/Lexer-for-C"
+			"value" : "/home/vivekdagar/Documents/Code/Projects/c-lexical-analyzer"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1163,7 +1163,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/vivekdagar/Documents/Code/C++/Lexer-for-C/cmake-build-debug"
+			"value" : "/home/vivekdagar/Documents/Code/Projects/c-lexical-analyzer/cmake-build-debug"
 		},
 		{
 			"name" : "untitled1_IS_TOP_LEVEL",
@@ -1187,7 +1187,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/vivekdagar/Documents/Code/C++/Lexer-for-C"
+			"value" : "/home/vivekdagar/Documents/Code/Projects/c-lexical-analyzer"
 		}
 	],
 	"kind" : "cache",

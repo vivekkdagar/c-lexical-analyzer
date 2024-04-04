@@ -130,8 +130,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/vivekdagar/Documents/Code/C++/Lexer-for-C/cmake-build-debug",
-		"source" : "/home/vivekdagar/Documents/Code/C++/Lexer-for-C"
+		"build" : "/home/vivekdagar/Documents/Code/Projects/c-lexical-analyzer/cmake-build-debug",
+		"source" : "/home/vivekdagar/Documents/Code/Projects/c-lexical-analyzer"
 	},
 	"version" : 
 	{

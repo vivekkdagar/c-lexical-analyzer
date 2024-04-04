@@ -1,4 +1,4 @@
-# Install script for directory: /home/vivekdagar/Documents/Code/C++/Lexer-for-C
+# Install script for directory: /home/vivekdagar/Documents/Code/Projects/c-lexical-analyzer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/vivekdagar/Documents/Code/C++/Lexer-for-C/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vivekdagar/Documents/Code/Projects/c-lexical-analyzer/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
