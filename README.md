@@ -4,10 +4,7 @@
 
 <h1>c-lexical-analyzer</h1>
 <p>A C++ program for lexical analysis of C code</p>
-
-
 <h4> <span> · </span> <a href="https://github.com/vivekkdagar/c-lexical-analyzer/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/vivekkdagar/c-lexical-analyzer/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/vivekkdagar/c-lexical-analyzer/issues"> Request Feature </a> </h4>
-<br>
 
 ![C++](https://img.shields.io/badge/C++-17-blue?logo=c%2B%2B)&emsp;![C](https://img.shields.io/badge/C--blue?logo=c)&emsp;![CMake](https://img.shields.io/badge/CMake-3.25-blue?logo=cmake)
 
