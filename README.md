@@ -29,10 +29,10 @@
 ### :dart: Features
 - The lexer efficiently tokenizes C code, recognizing keywords, identifiers, operators, constants, and preprocessor directives.
 - The lexer efficiently handles various operator types (arithmetic, relational, logical, bitwise, and ternary), along with character constants, string literals, and invalid characters.
-- Output Formatting: Tokens are formatted for output, including their type and lexeme.
-- Effective Use of Standard Library: The code leverages various components from the C++ Standard Library, including string manipulation (<string>), input/output operations (<iostream>), and data structures (<vector>, <unordered_set>, <unordered_map>). This showcases the power and efficiency of utilizing standard library features for common programming tasks.
-- Assertions for Testing and Debugging: The inclusion of assertions (assert) in the test cases ensures the correctness of the lexer's behavior during testing. Assertions help detect unexpected conditions and provide valuable feedback for debugging, contributing to the reliability and stability of the codebase.
-- Object Oriented Design: The lexer and its classes embrace object-oriented principles, ensuring readable, maintainable, and modular code. Core concepts like encapsulation and polymorphism are demonstrated through classes such as Token and Lexer, promoting code reusability and facilitating easier maintenance and testing.
+- **Output Formatting:** Tokens are formatted for output, including their type and lexeme.
+- **Effective Use of Standard Library:** The code leverages various components from the C++ Standard Library, including string manipulation (<string>), input/output operations (<iostream>), and data structures (<vector>, <unordered_set>, <unordered_map>). This showcases the power and efficiency of utilizing standard library features for common programming tasks.
+- **Assertions for Testing and Debugging:** The inclusion of assertions (assert) in the test cases ensures the correctness of the lexer's behavior during testing. Assertions help detect unexpected conditions and provide valuable feedback for debugging, contributing to the reliability and stability of the codebase.
+- **Object Oriented Design:** The lexer and its classes embrace object-oriented principles, ensuring readable, maintainable, and modular code. Core concepts like encapsulation and polymorphism are demonstrated through classes such as Token and Lexer, promoting code reusability and facilitating easier maintenance and testing.
 
 
 ## :toolbox: Getting Started
