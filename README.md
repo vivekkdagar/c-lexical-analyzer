@@ -40,7 +40,7 @@
 ### :bangbang: Prerequisites
 
 - C++ Compiler
-- CMake
+- A Build system
 
 
 ### :running: Run Locally
