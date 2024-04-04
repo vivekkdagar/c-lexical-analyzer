@@ -88,7 +88,7 @@ cd c-lexical-analyzer
 
 ## :warning: License
 
-Distributed under the MIT License. See LICENSE for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/vivekkdagar/c-lexical-analyzer/blob/main/LICENSE) for more information.
 
 ## :handshake: Contact
 
