@@ -8,9 +8,9 @@
 
 ![C++](https://img.shields.io/badge/C++-17-blue?logo=c%2B%2B)&emsp;![C](https://img.shields.io/badge/C--blue?logo=c)&emsp;![CMake](https://img.shields.io/badge/CMake-3.25-blue?logo=cmake)
 
-![Workflow Status](https://github.com/vivekkdagar/c-lexical-analyzer/actions/workflows/cmake-single-platform.yml/badge.svg)&emsp;![Workflow Status](https://github.com/vivekkdagar/c-lexical-analyzer/actions/workflows/codeql.yml/badge.svg)
+![Workflow Status](https://github.com/vivekkdagar/c-lexical-analyzer/actions/workflows/cmake-single-platform.yml/badge.svg)&emsp;
 
-![License](https://img.shields.io/github/license/vivekkdagar/c-lexical-analyzer?logo=mit)
+![License](https://img.shields.io/github/license/vivekkdagar/TicTacAI)
 
 
 
