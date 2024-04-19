@@ -8,12 +8,11 @@ using namespace std;
 int main()
 {
     string input = R"(
-        #include <iostream>
+        // Test
+        #include "stdio.h"
 
         int main() {
-            int x = 1.2;
-            return 1.23.232;
-            return 1;
+            return 0;
         }
     )";
 
