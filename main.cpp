@@ -1,20 +1,27 @@
 #include <iostream>
 #include <algorithm>
 #include "Lex/include/Lexer.h"
+#include "Lex/include/Preprocessor.h"
 
 using namespace std;
 
-int main() {
+int main()
+{
     string input = R"(
-    // Test
-    #include "stdio.h"
-    int main() {
-        reurn 0;
-    }
+        #include <iostream>
+
+        int main() {
+            int x = 1.2;
+            return 1.23.232;
+            return 1;
+        }
     )";
 
-    cout << "Code is:" << input << endl;
     Lexer h(input);
     h.tokenize();
-    cout << h;
+    for(auto a : h.getTokens())
+    {
+        cout << a;
+    }
+
 }

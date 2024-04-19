@@ -54,7 +54,8 @@
 				3,
 				5,
 				7,
-				8
+				8,
+				9
 			]
 		}
 	],
@@ -92,7 +93,8 @@
 				3,
 				5,
 				7,
-				8
+				8,
+				9
 			]
 		},
 		{
@@ -101,7 +103,8 @@
 			[
 				2,
 				4,
-				6
+				6,
+				10
 			]
 		}
 	],
@@ -157,6 +160,17 @@
 			"compileGroupIndex" : 0,
 			"path" : "Tests/LexerTest.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Lex/source/Preprocessor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Lex/include/Preprocessor.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

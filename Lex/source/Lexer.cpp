@@ -8,6 +8,8 @@
 
 #include "../include/Lexer.h"
 
+#include "../include/Preprocessor.h"
+
 Lexer::Lexer(std::string input) : input(std::move(input)), pos(0) {}
 
 void Lexer::skipSpc() {
@@ -83,7 +85,7 @@ bool Lexer::scan(std::unordered_set<std::string> list, const std::string &word) 
     }
 }
 
-[[maybe_unused]] bool Lexer::isOtherOp(const char &ch) {
+bool Lexer::isOtherOp(const char &ch) {
     switch (ch) {
         case '?':
         case ':':
@@ -95,6 +97,10 @@ bool Lexer::scan(std::unordered_set<std::string> list, const std::string &word) 
 }
 
 void Lexer::tokenize() {
+    Preprocessor obj(this->input);
+    obj.preprocess();
+    this->input = obj.getCode();
+
     if (this->tokens.empty())
         this->advance();
 
@@ -285,7 +291,7 @@ bool Lexer::isBracket(const char &currentChar) {
 void Lexer::extractNum() {
     std::string constant;
 
-    while (pos < input.length() && ( isdigit(input[pos])) and
+    while (pos < input.length()  and
            (this->input[pos] not_eq ';' and this->input[pos] not_eq ',')) {
         if (isdigit(input[pos]) or input[pos] == '.') {
             constant += input[pos];
@@ -301,9 +307,8 @@ void Lexer::extractNum() {
     }
 
     ctokens::TokType numType;
-    int floatCheck = isFloat(constant);
 
-    switch (floatCheck) {
+    switch (isFloat(constant)) {
         case -1:
             numType = ctokens::TokType::INVALID_TOK;
             break;
