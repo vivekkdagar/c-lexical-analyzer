@@ -34,6 +34,7 @@
 
 ### :dart: Features
 - The lexer efficiently tokenizes C code, recognizing keywords, identifiers, operators, constants, and preprocessor directives.
+- The lexer has a preprocessor which handles comments and preprocessor directives.
 - The lexer efficiently handles various operator types (arithmetic, relational, logical, bitwise, and ternary), along with character constants, string literals, and invalid characters.
 - **Output Formatting:** Tokens are formatted for output, including their type and lexeme.
 - **Effective Use of Standard Library:** The code leverages various components from the C++ Standard Library, including string manipulation (<string>), input/output operations (<iostream>), and data structures (<vector>, <unordered_set>, <unordered_map>). This showcases the power and efficiency of utilizing standard library features for common programming tasks.
